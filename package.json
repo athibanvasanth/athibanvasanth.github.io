@@ -16,10 +16,12 @@
     "@bookshop/astro-bookshop": "3.6.0",
     "@bookshop/astro-engine": "3.6.0",
     "@bookshop/generate": "3.6.0",
+    "@contentful/rich-text-html-renderer": "^16.5.2",
     "@makotot/ghostui": "^2.0.0",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
     "astro": "^2.4.5",
+    "contentful": "^10.11.10",
     "punycode": "^2.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
