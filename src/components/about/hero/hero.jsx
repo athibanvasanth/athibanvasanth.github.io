@@ -56,21 +56,21 @@ export default function AboutHero() {
           </div>
           <div className='col-xl-7 col-lg-12'>
             <div className='about-hero-two-banner'>
-              <div className={renderPlacer(block.image.placement)}>
+              <div className='image-one'>
                 <img
                   src={block.image.fields.file.url}
                   alt={block.imageAltText}
                   loading='lazy'
                 />
               </div>
-              <div className={renderPlacer(block.image2.placement)}>
+              <div className='image-two'>
                 <img
                   src={block.image2.fields.file.url}
                   alt={block.imageAltText2}
                   loading='lazy'
                 />
               </div>
-              <div className={renderPlacer(block.image3.placement)}>
+              <div className='image-three'>
                 <img
                   src={block.image3.fields.file.url}
                   alt={block.imageAltText3}
